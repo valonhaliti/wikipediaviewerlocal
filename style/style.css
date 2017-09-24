@@ -1,30 +1,33 @@
 body, html {
-	background: #141414;
+	background: #545762;
 	color: #e5e5e5;
 }
 .centered-text {
 	text-align:center
 }
 .article {
-	background: rgba(70, 187, 10, 0.02);
+	background: #F5F5F6;
 	padding: 10px;
-	margin-bottom: 20px;
-	-webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(137, 137, 138, 0.87);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(137, 137, 138, 0.87);;
+	box-shadow: 0px 0px 10px 0px rgba(137, 137, 138, 0.87);;
 }
 #search-results {
 	opacity: 0;
 }
 .article:hover {
-	background: rgba(70, 187, 10, 0.1);
+	background: rgba(245, 245, 246, 0.89);
+	-webkit-box-shadow: 0px 0px 25px 0px rgba(192, 192, 193, 0.87);
+	-moz-box-shadow: 0px 0px 25px 0px rgba(192, 192, 193, 0.87);
+	box-shadow: 0px 0px 25px 0px rgba(192, 192, 193, 0.87);
 }
 .article > h3 > a {
-	color: #4bbf02;
+	color: #545762;
 }
 .article > h3 > a:hover {
-	color: #4bbf02;
+	color: #545762;
 }
 .article > p {
-	color: #a0c38a;
+	color: #83868C;
 }
