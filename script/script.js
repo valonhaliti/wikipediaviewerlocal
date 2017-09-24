@@ -1,3 +1,15 @@
+document.addEventListener("DOMContentLoaded", function() {
+    // document is ready
+
+    document.getElementById('getForm').addEventListener('submit', getWikipediaArticles);
+    function getWikipediaArticles() {
+        alert(document.getElementById('search-field').value);
+    }
+
+    let el = document.getElementById("search-results");
+    fadeIn(el);
+});
+
 function fadeIn(el) {
     el.style.opacity = 0;
 
@@ -10,29 +22,3 @@ function fadeIn(el) {
     };
     tick();
 }
-
-document.addEventListener("DOMContentLoaded", function() {
-    // document is ready
-
-
-    document.getElementById('getForm').addEventListener('submit', getWikipediaArticles);
-    function getWikipediaArticles() {
-        alert(document.getElementById('search-field').value);
-    }
-
-    let el = document.getElementById("search-results");
-
-    fadeIn(el);
-
-
-
-
-
-
-
-
-
-
-
-
-});
