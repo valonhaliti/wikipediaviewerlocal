@@ -5,3 +5,26 @@ body, html {
 .centered-text {
 	text-align:center
 }
+.article {
+	background: rgba(70, 187, 10, 0.02);
+	padding: 10px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+}
+#search-results {
+	opacity: 0;
+}
+.article:hover {
+	background: rgba(70, 187, 10, 0.1);
+}
+.article > h3 > a {
+	color: #4bbf02;
+}
+.article > h3 > a:hover {
+	color: #4bbf02;
+}
+.article > p {
+	color: #a0c38a;
+}
