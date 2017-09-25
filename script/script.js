@@ -25,6 +25,3 @@ function fadeIn(el) {
     };
     tick();
 }
-
-
-
