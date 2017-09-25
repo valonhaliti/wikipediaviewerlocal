@@ -1,6 +1,12 @@
 body, html {
 	background-color: #77b1a9;
 	color: white;
+    font-family: 'Pontano Sans', sans-serif;
+}
+#title-page {
+    color: black;
+    font-family: 'Crushed', cursive;
+    font-size: 60px;
 }
 
 .centered-text {
