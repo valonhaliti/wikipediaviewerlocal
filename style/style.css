@@ -7,7 +7,7 @@ body, html {
 	text-align:center
 }
 
-/*1 Headeeriii*/
+/*1 Headeeri */
 #header {
     margin: 10px 0 15px 0;
 }
@@ -19,9 +19,6 @@ body, html {
 /*1.2 Search butoni*/
 input[type="text"] {
     width: 100px;
-    /*position: absolute;*/
-    /*top: 49%;*/
-    /*margin-left: 21.5%;*/
     border: 1px solid black;
     border-radius: 2px;
     background-image: url(../img/search.png);
@@ -31,7 +28,7 @@ input[type="text"] {
     transition: 0.6s all;
 }
 input[type="text"]:focus{
-    width: 21%;
+    width: 180px;
     border: 1px solid black;
     transition: 0.6s all;
 }
