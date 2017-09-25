@@ -3,40 +3,66 @@ body, html {
 	color: white;
     font-family: 'Pontano Sans', sans-serif;
 }
+.centered-text {
+	text-align:center
+}
+
+/*1 Headeeriii*/
+#header {
+    margin: 10px 0 15px 0;
+}
 #title-page {
     color: black;
     font-family: 'Crushed', cursive;
     font-size: 60px;
 }
-
-.centered-text {
-	text-align:center
+/*1.2 Search butoni*/
+input[type="text"] {
+    width: 100px;
+    /*position: absolute;*/
+    /*top: 49%;*/
+    /*margin-left: 21.5%;*/
+    border: 1px solid black;
+    border-radius: 2px;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: 3px 7px;
+    padding: 10px 2px 12px 33px;
+    transition: 0.6s all;
 }
+input[type="text"]:focus{
+    width: 21%;
+    border: 1px solid black;
+    transition: 0.6s all;
+}
+
+
+
 .article {
-	background: #F5F5F6;
-	padding: 10px;
-	color: white;
-	margin-bottom: 10px;
-	-webkit-box-shadow: 0px 0px 10px 0px rgba(137, 137, 138, 0.87);
-	-moz-box-shadow: 0px 0px 10px 0px rgba(137, 137, 138, 0.87);;
-	box-shadow: 0px 0px 10px 0px rgba(137, 137, 138, 0.87);;
+    background: #F5F5F6;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(137, 137, 138, 0.87);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(137, 137, 138, 0.87);;
+    box-shadow: 0px 0px 10px 0px rgba(137, 137, 138, 0.87);;
 }
 #search-results {
-	opacity: 0;
+    opacity: 0;
 }
 .article:hover {
-	background: rgba(245, 245, 246, 0.89);
-	-webkit-box-shadow: 0px 0px 25px 0px rgba(192, 192, 193, 0.87);
-	-moz-box-shadow: 0px 0px 25px 0px rgba(192, 192, 193, 0.87);
-	box-shadow: 0px 0px 25px 0px rgba(192, 192, 193, 0.87);
+    background: rgba(245, 245, 246, 0.89);
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(192, 192, 193, 0.87);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(192, 192, 193, 0.87);
+    box-shadow: 0px 0px 25px 0px rgba(192, 192, 193, 0.87);
 }
 .article > h3 > a {
-	color: #545762;
+    color: #545762;
 }
 .article > h3 > a:hover {
-	color: #545762;
+    color: #545762;
     text-decoration: none;
 }
 .article > p {
-	color: #545762;
+    color: #545762;
 }
