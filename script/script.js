@@ -2,13 +2,13 @@ document.addEventListener("DOMContentLoaded", function() {
     // document is ready
 
     document.getElementById('getForm').addEventListener('submit', getWikipediaArticles);
-    
+
     function getWikipediaArticles(e) {
         e.preventDefault();
         let el = document.getElementById("search-results");
         const xhr = new XMLHttpRequest();
         const link = 'https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch='
-            + encodeURIComponent(document.getElementById('search-field').value) +'&format=json';
+            + encodeURIComponent(document.getElementById('search-field').value) +'&origin=*&format=json';
 
         xhr.open('GET', link, true);
         xhr.onload = function () {
@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 let output = "";
                 for (let i in users) {
                     output += '<div class="article">'
-                            + '<h3><a href="http://en.wikipedia.org/?curid=' + users[i].pageid+'">'+
-                                users[i].title +'</a></h3>';
+                        + '<h3><a href="http://en.wikipedia.org/?curid=' + users[i].pageid+'">'+
+                        users[i].title +'</a></h3>';
                     output += "<p>" + users[i].snippet +"</p></div>";
 
                 }

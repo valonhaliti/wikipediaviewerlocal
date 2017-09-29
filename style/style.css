@@ -58,7 +58,6 @@ input[type="text"]:focus{
 }
 .article > h3 > a:hover {
     color: #545762;
-    text-decoration: none;
 }
 .article > p {
     color: #545762;
