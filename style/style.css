@@ -20,6 +20,10 @@ body, html {
     font-size: 60px;
 }
 
+#random-link {
+    color: black;
+}
+
 
 /*1.2 Search button*/
 #search-field {
