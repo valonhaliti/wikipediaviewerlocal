@@ -28,6 +28,12 @@ document.addEventListener("DOMContentLoaded", function() {
         fadeIn(el);
         xhr.send();
     }
+
+    document.getElementById('getForm').addEventListener('focus', removePadding, true);
+    function removePadding() {
+        document.getElementById('header').classList.remove('padding-top');
+    }
+
 });
 
 function fadeIn(el) {

@@ -7,18 +7,23 @@ body, html {
     text-align:center
 }
 
-/*1 Headeeri */
+/*1 Header */
 #header {
     margin: 10px 0 15px 0;
+}
+.padding-top {
+    padding-top: 20%;
 }
 #title-page {
     color: black;
     font-family: 'Crushed', cursive;
     font-size: 60px;
 }
-/*1.2 Search butoni*/
-input[type="text"] {
-    width: 100px;
+
+
+/*1.2 Search button*/
+#search-field {
+    width: 200px;
     border: 1px solid black;
     border-radius: 2px;
     background-image: url(../img/search.png);
@@ -27,14 +32,14 @@ input[type="text"] {
     padding: 10px 2px 12px 33px;
     transition: 0.6s all;
 }
-input[type="text"]:focus{
-    width: 180px;
+#search-field:focus{
+    width: 280px;
     border: 1px solid black;
     transition: 0.6s all;
 }
 
 
-
+/*Article */
 .article {
     background: #F5F5F6;
     padding: 10px;
